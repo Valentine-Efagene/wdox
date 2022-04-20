@@ -1,0 +1,22 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  position: absolute;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.listItem {
+  border-top: 1px solid grey;
+  padding: 20px;
+}
+
+.listItem:nth-child(1) {
+  border-top: none;
+}

@@ -1,0 +1,72 @@
+@media screen and (min-width: 481px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .sideNote {
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    width: fit-content;
+    border-left: 2px solid #5f4bd4;
+    text-align: right;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 83px;
+
+    /* or 184% */
+    letter-spacing: -0.03em;
+
+    color: #ffffff;
+    padding: 30px;
+  }
+
+  .flowchart {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+  }
+
+  .heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 38px;
+
+    /* or 150% */
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #ffffff;
+    margin: 0 0 20px 0;
+  }
+
+  .sideNote {
+    display: none;
+  }
+
+  .container {
+  }
+
+  .flowchart {
+  }
+}

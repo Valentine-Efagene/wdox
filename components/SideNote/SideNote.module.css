@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) {
+  .sideNote {
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    width: fit-content;
+    border-left: 2px solid #5f4bd4;
+    padding-bottom: 50px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #5454d4;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sideNote {
+    display: none;
+  }
+}

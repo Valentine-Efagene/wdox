@@ -1,0 +1,280 @@
+@media screen and (min-width: 769px) {
+  .container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: auto;
+    gap: 20px;
+    padding: 40px 20px 20px 20px;
+    overflow: auto;
+  }
+
+  .buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .buttons div {
+    width: 100%;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .socials {
+    width: 50%;
+  }
+
+  .nav {
+    grid-column: 1;
+  }
+
+  .body h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 206%;
+    /* or 45px */
+
+    color: #ffffff;
+  }
+
+  .body p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 38px;
+
+    color: #ffffff;
+  }
+
+  .body b {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 206%;
+    /* or 37px */
+
+    color: #ffffff;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .headingImg {
+    width: 50px;
+  }
+
+  .headingText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+
+    color: #ffffff;
+  }
+
+  .headingText span:nth-child(2) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 61px;
+
+    color: #ffffff;
+  }
+
+  .buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .buttons div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .main {
+    padding-top: 40px 5px 5px 5px;
+  }
+
+  .buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .buttons div {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .nav {
+    grid-column: 1;
+  }
+  .socials {
+    width: 50%;
+  }
+
+  .body {
+    grid-column: 2 / span 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 38px;
+
+    color: #ffffff;
+  }
+
+  .body b {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 206%;
+    /* or 37px */
+
+    color: #ffffff;
+  }
+
+  .heading {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+  }
+
+  .headingImg {
+    display: flex;
+    align-items: center;
+  }
+
+  .headingText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 61px;
+
+    color: #ffffff;
+  }
+
+  .headingText span:nth-child(2) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 61px;
+
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  .buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .buttons div {
+    width: 100%;
+  }
+
+  .socials {
+    width: 50%;
+  }
+
+  .heading {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+  }
+
+  .headingImg {
+    display: flex;
+    align-items: center;
+  }
+
+  .headingText {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 61px;
+
+    color: #ffffff;
+  }
+
+  .headingText span:nth-child(2) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+
+    color: #ffffff;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 178%;
+    /* or 30px */
+
+    color: #ffffff;
+  }
+
+  .body b {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 178%;
+    /* or 30px */
+
+    color: #ffffff;
+  }
+}
