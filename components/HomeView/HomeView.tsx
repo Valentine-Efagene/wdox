@@ -61,7 +61,8 @@ export default function HomeView() {
             navigate, for all. The fraud ends here.{' '}
           </p>
           <div className={styles.searchBarWrapper}>
-            <ActiveSearchBar placeholder="Search an NFT project" />
+            {/* <ActiveSearchBar placeholder="Search an NFT project" /> */}
+            <SearchBar placeholder="Search an NFT project" />
           </div>
           <div className={styles.button}>
             <MaterialButton
