@@ -9,25 +9,18 @@ export default function HomeWhitePaper() {
       <SideNote>WHITEPAPER</SideNote>
       <div className={styles.whitepaper}>
         <h2>White Paper</h2>
-        <div
+        <Button
+          type="link"
           style={{
             width: 'fit-content',
-            paddingLeft: '20px',
             paddingRight: '20px',
+            paddingLeft: '20px',
           }}
+          href="whitepaper/executivesummary"
+          variant="whitePaperNav"
         >
-          <Button
-            variant="primary"
-            type="link"
-            href="status"
-            //variant="whitePaperNav"
-            onClick={() => {
-              console.log('')
-            }}
-          >
-            Check Whitepaper
-          </Button>
-        </div>
+          Check Whitepaper
+        </Button>
       </div>
     </div>
   )
